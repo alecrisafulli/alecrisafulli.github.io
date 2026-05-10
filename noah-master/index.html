@@ -73,18 +73,15 @@
 							<p>company size - Number of employees by interval: Startup (1-50) / Enterprise (5k+)</p>
 							<p>Location - The City or Country</p>
 							<p>Demand - Market demand score 0-100 for this role</p>
+							<p>(Syed Ali Taqi)</p>
 						</ul>
+	
 						<p>
 							We did not have to pre-process the data, as it was already cleaned. Most adjustments were done in Tableau through filtering, aggregation, and creating calculated fields.
-							<br>We also used a Cost of Living Index dataset so that we could look at relative salary on the point map. We fixed the city variable so it could join properly. 
+							<br>We also used a Cost of Living Index dataset so that we could look at relative salary on the point map. We fixed the city variable so it could join properly(prasertcbs). 
 
 							<br><br>The process of making the visualizations in Tableau was fairly straightforward, though we underwent some trial and error in making the bar chart “race” based on country rankings and ensuring that the visualizations clearly portray patterns in the data. Several visualization types were explored before we finalized our dashboard. We paid particular attention to reducing visual clutter, especially in the scatterplot illustrating every job posting. Tableau’s Pages feature was used to separate visualizations by education level and industry, allowing comparisons across categories while removing clutter and maintaining readability. We adjusted visual factors like color and shape to clearly represent the data and communicate appropriate messages. 
 							
-						</p>
-						<p>Links:</p>
-						<a href="https://www.kaggle.com/datasets/alitaqishah/ai-jobs-market-2025-2026-salaries">AI Job Market</a>
-						<br><a href="https://github.com/prasertcbs/basic-dataset/blob/master/Cost_of_living_index.csv">Cost of Living Index</a>
-						<br>
 					</div>
 				</div>
 				<div class="row">
@@ -105,11 +102,13 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="work-entry animate-box">
 										<div class='tableauPlaceholder' id='viz1778442774634' style='position: relative'><noscript><a href='#'><img alt='How Expirience Relates to Salary - PhD ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1778442774634');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>									<div class="col-md-12 col-md-offset-0">
-										<div class="desc">
-											<p>The scatterplot shows years of experience and salary for each education level, separated using the Tableau pages feature. Through these comparisons, the scatterplots show that years of experience has more of an impact on salary for roles requiring less education. As education increases, experience matters less. The trendlines on the scatterplots help illustrate this. The correlation between salary and experience is more positive for the bootcamp/self-taught, Associate’s, and Bachelor’s classifications compared to the Master’s and PhD groups. The PhD group indicates little to no correlation between salary and experience. This suggests that employers may place greater value on advanced education than accumulated experience for some AI roles. 
+										<div class="col-md-8 col-md-offset-2">
+											<div class="desc">
+												<p>The scatterplot shows years of experience and salary for each education level, separated using the Tableau pages feature. Through these comparisons, the scatterplots show that years of experience has more of an impact on salary for roles requiring less education. As education increases, experience matters less. The trendlines on the scatterplots help illustrate this. The correlation between salary and experience is more positive for the bootcamp/self-taught, Associate’s, and Bachelor’s classifications compared to the Master’s and PhD groups. The PhD group indicates little to no correlation between salary and experience. This suggests that employers may place greater value on advanced education than accumulated experience for some AI roles. 
 
-												<br><br>This visualization directly addresses the project’s research question by demonstrating how both education and experience interact to influence salary levels. The findings indicate that while experience remains important, advanced degrees may reduce the salary advantage typically gained through additional years of work experience.
-											</p>
+													<br><br>This visualization directly addresses the project’s research question by demonstrating how both education and experience interact to influence salary levels. The findings indicate that while experience remains important, advanced degrees may reduce the salary advantage typically gained through additional years of work experience.
+												</p>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -133,7 +132,12 @@
 							<div class='tableauPlaceholder' id='viz1778445001668' style='position: relative'><noscript><a href='#'><img alt='AI Jobs Demand and Salary ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;AIJobsDemansandSalary&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CitiesRelativeAnnualMinimumSalary&#47;AIJobsDemansandSalary' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;AIJobsDemansandSalary&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1778445001668');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.55)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 							<div class="col-md-7 col-md-offset-3">
 								<div class="desc">
-									<p>Placehold</p>
+									<p>The Gantt chart displays each job in the dataset with their average annual salaries and summed demand scores, organized into the year the job was posted. This allows for comparison over time as well as across roles. The demand score rates how strongly the job market is seeking a certain role, with higher scores indicating greater market intensity. The chart highlights which positions are most in demand. 
+
+<br><br>It shows that the LLM Engineer role increased in summed demand the most from 2025 to 2026, demonstrating rapid growth in market intensity. The LLM Engineer role is also high in annual salary. Other highly demanded roles in 2026 include Generative AI Engineer, reflecting the growth of generative AI tools, and ML Engineer, showing market intensity in the machine learning field. RAG Engineer also combines strong demand and high salary, making these attractive careers to pursue. Interestingly, AI Ethics Officer has a lower average salary, reflecting a focus on highly technical specialization in AI roles.
+
+<br><br>The findings suggest that market demand for AI roles is increasing from 2025 to 2026, while salaries remain high across most roles. Specifically, large language model technologies seem to be becoming increasingly valuable to companies. 
+</p>
 								</div>
 							</div>
 						</div>
@@ -142,8 +146,20 @@
 					<div class="col-md-10 col-md-offset-1">
 						<h2 class="heading">Conclusion</h2>
 						<p>
-							As Artificial Intelligence (AI) grows rapidly, the job market for AI roles expands, and the machine learning (ML) industry has seen significant growth. As data science students, we wanted to learn more about future careers in this emergent field. We decided to focus on a very important factor: Salary. Salary is often one of the most important considerations in searching for jobs, so this project focuses on analyzing potential influences on compensation for AI and ML roles. 
+							This project explored how education, experience, industry and location influence salary in the promising fields of AI and ML. The visualizations demonstrated that location and industry have the strongest overall impact on salary, while the influence of experience varies depending on education level. 
+
+<br><br>The scatterplot revealed that advanced degrees may reduce the importance of on-the-job experience. The point map highlighted regional salary differences between cities across the globe. The bar chart showed that industry plays a major role in determining salary potential across countries. Finally, the Gantt chart shows that LLM and engineering roles requiring advanced technical skills are in higher demand overall, with higher annual salaries, as well, suggesting that the biggest predictor of salary is skill.
+
+<br><br>Overall, the analysis suggests that pursuing AI and ML careers requires consideration of multiple intertwined factors rather than focusing solely on education or years of experience. Geographic demand, technical skills, and industry sector contribute significantly to salary outcomes in this rapidly growing field.
+
 						</p>
+					</div>
+					</div>
+					<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h2 class="heading">Works Cited</h2>
+						<p>
+							prasertcbs. “Cost of Living Index.” Github.com, 2026, github.com/prasertcbs/basic-dataset/blob/master/Cost_of_living_index.csv. Accessed 10 May 2026. <br>Syed Ali Taqi. “AI Jobs Market 2025-2026 | Salaries.” Kaggle.com, 2025, www.kaggle.com/datasets/alitaqishah/ai-jobs-market-2025-2026-salaries.						</p>
 					</div>
 				</div>
 				</div>
