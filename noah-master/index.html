@@ -65,14 +65,14 @@
 							The dataset used for the project includes 1,500 various AI and ML jobs posted in 2025 and 2026. The data includes information such as:
 						</p>
 						<ul>
-							<p>education level</p>
-							<p>experience required</p>
-							<p>average annual salary</p>
-							<p>minimum and maximum salary</p>
-							<p>Industry</p>
-							<p>company size</p>
-							<p>Location</p>
-							<p>Demand</p>
+							<p>education required - Minimum education: Bachelor's / Master's / PhD / Bootcamp</p>
+							<p>experience required - Minimum years of experience required for the role</p>
+							<p>average annual salary - Annual total compensation in US dollars</p>
+							<p>minimum salary - Minimum of the salary range advertised for this role</p>
+							<p>Industry - Industry sector of hiring company</p>
+							<p>company size - Number of employees by interval: Startup (1-50) / Enterprise (5k+)</p>
+							<p>Location - The City or Country</p>
+							<p>Demand - Market demand score 0-100 for this role</p>
 						</ul>
 						<p>
 							We did not have to pre-process the data, as it was already cleaned. Most adjustments were done in Tableau through filtering, aggregation, and creating calculated fields.
@@ -81,6 +81,7 @@
 							<br><br>The process of making the visualizations in Tableau was fairly straightforward, though we underwent some trial and error in making the bar chart “race” based on country rankings and ensuring that the visualizations clearly portray patterns in the data. Several visualization types were explored before we finalized our dashboard. We paid particular attention to reducing visual clutter, especially in the scatterplot illustrating every job posting. Tableau’s Pages feature was used to separate visualizations by education level and industry, allowing comparisons across categories while removing clutter and maintaining readability. We adjusted visual factors like color and shape to clearly represent the data and communicate appropriate messages. 
 							
 						</p>
+						<p>Links:</p>
 						<a href="https://www.kaggle.com/datasets/alitaqishah/ai-jobs-market-2025-2026-salaries">AI Job Market</a>
 						<br><a href="https://github.com/prasertcbs/basic-dataset/blob/master/Cost_of_living_index.csv">Cost of Living Index</a>
 						<br>
@@ -103,8 +104,7 @@
 					</div>
 					<div class="col-md-10 col-md-offset-1">
 						<div class="work-entry animate-box">
-								<div class='tableauPlaceholder' id='viz1778435666420' style='position: relative'><noscript><a href='#'><img alt='Years of Experience vs. Annual Salary ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1778435666420');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>							<div class="col-md-8 col-md-offset-2">
-									<div class="col-md-12 col-md-offset-0">
+										<div class='tableauPlaceholder' id='viz1778442774634' style='position: relative'><noscript><a href='#'><img alt='How Expirience Relates to Salary - PhD ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiesRelativeAnnualMinimumSalary&#47;Experience_SalaryScatter&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1778442774634');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>									<div class="col-md-12 col-md-offset-0">
 										<div class="desc">
 											<p>The scatterplot shows years of experience and salary for each education level, separated using the Tableau pages feature. Through these comparisons, the scatterplots show that years of experience has more of an impact on salary for roles requiring less education. As education increases, experience matters less. The trendlines on the scatterplots help illustrate this. The correlation between salary and experience is more positive for the bootcamp/self-taught, Associate’s, and Bachelor’s classifications compared to the Master’s and PhD groups. The PhD group indicates little to no correlation between salary and experience. This suggests that employers may place greater value on advanced education than accumulated experience for some AI roles. 
 
